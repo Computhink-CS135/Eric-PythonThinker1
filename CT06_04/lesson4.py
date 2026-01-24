@@ -45,7 +45,7 @@ import math
 # print("next year, you will be " + age + " years old.")
 
 # 5e
-length = int(input("what is the length?"))
-width = int(input("what is the width?"))
-area = length * width
-print("the area is " + str(area) + ".")
+# length = int(input("what is the length?"))
+# width = int(input("what is the width?"))
+# area = length * width
+# print("the area is " + str(area) + ".")
