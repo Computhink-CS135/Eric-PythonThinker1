@@ -49,3 +49,9 @@ import math
 # width = int(input("what is the width?"))
 # area = length * width
 # print("the area is " + str(area) + ".")
+
+# task6
+# num1 = 10
+# num2 = "20"
+# total = num1 + int(num2)
+# print(total)
