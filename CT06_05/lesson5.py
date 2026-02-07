@@ -77,5 +77,3 @@ import math
 # for i in range(2, 40 + 1, 2):
 #     total = total + i
 # print(total)
-
-task9
