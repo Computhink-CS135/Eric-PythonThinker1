@@ -1,0 +1,5 @@
+
+money = int(input("what is the total bill?\n"))
+people = int(input("how many people are there?\n"))
+average = money / people
+print(f"each person pays ${average}.")
