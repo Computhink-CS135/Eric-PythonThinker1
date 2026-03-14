@@ -57,10 +57,70 @@ import math
 # print(f"the number is {random_num}.")
 
 # task5
+# import random
+# questions = int(input("how many questions do you want?\n"))
+# for i in range(questions):
+#     num1 = random.randint(1, 10)
+#     num2 = random.randint(1, 10)
+#     answer = num1 * num2
+#     user_answer = int(input("what is "  + str(num1) +  " X " + str(num2) + "?\n"))
+#     if user_answer == answer:
+#         print("correct")
+#     else:
+#         print("wrong")
+#         print(f"the answer was {answer}")
+    
+# task6
+# num = int(input("input a number.\n"))
+# remainder = num % 2
+# if remainder != 0:
+#     print("the number is an odd number")
+# else:
+#     print("the number is an even number")
+
+# task7
+# num1 = int(input("what is the first number?\n"))
+# num2 = int(input("what is the second number?\n"))
+# if num1 % num2 == 0:
+#     print(f"{num1} is a multiple of {num2}.")
+# else:
+#     print(f"{num1} is not a multiple of {num2}.")
+
+# challenge1
+# score = 0
+# ans = input("what is the capital of France?\n").lower()
+# if ans == "paris":
+#     print("correct")
+#     score += 1
+# else:
+#     print("wrong")
+#     print("the answer was Paris")
+# ans = input("are you gay?\n").lower()
+# if ans == "yes":
+#     print("correct")
+#     score += 1
+# else:
+#     print("wrong")
+#     print("the answer was yes")
+# ans = input("are you a human?\n").lower()
+# if ans == "no":
+#     print("correct")
+#     score += 1
+# else:
+#     print("wrong")
+#     print("the answer was no")
+# print(f"you got {score}/3.")
+
+# challenge2
 import random
-num1 = random.randint(1, 11)
-num2 = random.randint(1, 11)
-answer = num1 * num2
-user_answer = int(input("what is "  + str(num1) +  " X " + str(num2) + "?\n"))
-print(user_answer == answer)
-print(f"the answer is {answer}.")
+diffculty = input("what is the diffculty number?\n")
+if diffculty == "1":
+    num1 = random.randint(1, 10)
+if diffculty == "2":
+    num1 = random.randint(1, 20)
+if diffculty == "3":
+    num1 = random.randint(1, 25)
+if diffculty == "4":
+    num1 = random.randint(1, 50)
+if diffculty == "5":
+    num1 = random.randint(1, 100)
