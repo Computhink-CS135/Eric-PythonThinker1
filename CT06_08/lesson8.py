@@ -110,17 +110,3 @@ import math
 #     print("wrong")
 #     print("the answer was no")
 # print(f"you got {score}/3.")
-
-# challenge2
-import random
-diffculty = input("what is the diffculty number?\n")
-if diffculty == "1":
-    num1 = random.randint(1, 10)
-if diffculty == "2":
-    num1 = random.randint(1, 20)
-if diffculty == "3":
-    num1 = random.randint(1, 25)
-if diffculty == "4":
-    num1 = random.randint(1, 50)
-if diffculty == "5":
-    num1 = random.randint(1, 100)
