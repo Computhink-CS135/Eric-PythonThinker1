@@ -26,10 +26,10 @@ import math
 #     print("remember to return your book.")
 
 # task3
-apples = int(input("how many apples do you want to buy.\n"))
-if apples >= 10:
-    print ("you will get a 10% discount.")
-    price = apples * 1 * 0.9
-else:
-    price = apples * 1
-print(f"the price is {price}")
+# apples = int(input("how many apples do you want to buy.\n"))
+# if apples >= 10:
+#     print ("you will get a 10% discount.")
+#     price = apples * 1 * 0.9
+# else:
+#     price = apples * 1
+# print(f"the price is {price}")

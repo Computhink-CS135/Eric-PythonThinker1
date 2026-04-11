@@ -44,8 +44,8 @@ import math
 #     print("password is correct")
 
 # task7
-# username = "i'm soo gay"
-# pw = "i'm a alien"
+# username = "i am soo gay"
+# pw = "i am a alien"
 # username1 = input("what is the username?\n").lower()
 # pw1 = input("what is the password?\n").lower()
 # if username1 == username and pw1 == pw:
