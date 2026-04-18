@@ -39,23 +39,21 @@ people = 0
 #     print("happy new year")
 
 # task5
-import random
-tries = 0
-score = 0
-while True:
-    num1 = random.randint(1, 20)
-    num2 = random.randint(1, 10)
-    tries += 1
-    ans = int(input(f"what is {num1} X {num2}?\n"))
-    if ans == num1 * num2:
-        print("that is correct!")
-        score += random.randint(1, 10)
-        if score >= 10:
-            if tries == 1:
-                print("1st try!!!!")
-            else:
-                print(f"you took {tries} attempts.")
-            break
-    score -= 1
-
-# task6
+# import random
+# tries = 0
+# score = 0
+# while True:
+#     num1 = random.randint(1, 20)
+#     num2 = random.randint(1, 10)
+#     tries += 1
+#     ans = int(input(f"what is {num1} X {num2}?\n"))
+#     if ans == num1 * num2:
+#         print("that is correct!")
+#         score += random.randint(1, 10)
+#         if score >= 10:
+#             if tries == 1:
+#                 print("1st try!!!!")
+#             else:
+#                 print(f"you took {tries} attempts.")
+#             break
+#     score -= 1
